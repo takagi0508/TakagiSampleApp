@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController,NavParams, AlertController } from 'ionic-angular';
 import { SvpInputPage } from '../svp-input/svp-input';
+import { EstateMenuPage } from '../estate-menu/estate-menu';
 import { GoogleMaps, GoogleMap, GoogleMapsEvent, GoogleMapsAnimation, GoogleMapZoomOptions
         ,GoogleMapControlOptions,GoogleMapOptions,GoogleMapPreferenceOptions
         ,GoogleMapsMapTypeId } from '@ionic-native/google-maps';
@@ -16,8 +17,12 @@ export class HomePage {
   constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController) {
   }
 
-  onClick(){
+  onClick1(){
     this.navCtrl.push(SvpInputPage);
+  }
+
+  onClick2(){
+    this.navCtrl.push(EstateMenuPage);
   }
 
   /**

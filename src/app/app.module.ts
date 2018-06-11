@@ -11,6 +11,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SvpInputPage } from '../pages/svp-input/svp-input';
 import { GoogleMaps } from '@ionic-native/google-maps';
+import { EstateMenuPage } from '../pages/estate-menu/estate-menu';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { GoogleMaps } from '@ionic-native/google-maps';
     ContactPage,
     HomePage,
     TabsPage,
-    SvpInputPage
+    SvpInputPage,
+    EstateMenuPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { GoogleMaps } from '@ionic-native/google-maps';
     ContactPage,
     HomePage,
     TabsPage,
-    SvpInputPage
+    SvpInputPage,
+    EstateMenuPage
   ],
   providers: [
     StatusBar,
